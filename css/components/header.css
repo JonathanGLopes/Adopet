@@ -1,0 +1,15 @@
+.container {
+    background-color: var(--bg-blue);
+    background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png);
+    background-position: left top, right bottom 50%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.main-header {
+    padding: 3rem;
+}
+
+.wrap-nav {
+    display: flex;
+    gap: 3.6rem;
+}
