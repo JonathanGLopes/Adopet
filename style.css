@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap');
+
+
+:root {
+  --bg-blue: #3772FF;
+  --bg-green: #36D6AD;
+  --bg-light-gray: #F6F6F6;
+  --font-dark-gray: #737380;
+  --font-light-gray: #BCBCBC;
+  --button: #FC7071;
+  --button-hover: #FF9D9E;
+
+  --font-main: font-family: 'Poppins', sans-serif;
+}
+
+
