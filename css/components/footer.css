@@ -1,11 +1,11 @@
 .footer {
     background-color: var(--bg-green);
     padding: 2rem 2rem;  
+    text-align: center;
 }
 
 .footer-span {
     font-size: 1rem;
     font-family: var(--font-main);
     color: #FFF;
-    text-align: center;
 }
