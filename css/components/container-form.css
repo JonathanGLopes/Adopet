@@ -1,0 +1,14 @@
+.container-form {
+    background-color: #fff;
+    background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape2.svg);
+    background-position: left top, left bottom 20%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.img-paw{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 189px;
+    height: 243px;
+}
