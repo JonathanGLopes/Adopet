@@ -1,0 +1,72 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 0;
+}
+
+.main-logo-blue {
+    width: 142px;
+}
+
+.wrap-register-span {
+    width: 312px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-span1, .register-span2 {
+    font-size: 16px;
+    font-family: var(--font-main);
+    color: var(--bg-blue);
+    line-height: 21px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--font-main);
+    color: var(--font-dark-gray);
+}
+
+.form-input {
+    padding: 7px;
+    text-align: center;
+    border: none;
+    background-color: var(--bg-light-gray);
+    width: 312px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px -6px black;
+}
+
+.form-input::placeholder{
+    color: var(--font-light-gray);
+    font-size: 12px;
+    font-family: var(--font-main);
+}
+
+.button-register {
+    width: 148px;
+    height: 40px;
+    background-color: var(--button);
+    font-family: var(--font-main);
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
