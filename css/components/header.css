@@ -11,5 +11,6 @@
 
 .wrap-nav {
     display: flex;
+    align-items: center;
     gap: 3.6rem;
 }
