@@ -5,6 +5,8 @@
 @import url(components/footer.css);
 @import url(components/container-form.css);
 @import url(components/form.css);
+@import url(components/pets.css);
+@import url(components/container-log.css);
 
 :root {
   --bg-blue: #3772FF;
