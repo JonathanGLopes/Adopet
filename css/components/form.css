@@ -63,6 +63,13 @@
     font-family: var(--font-main);
 }
 
+.form-password {
+    text-decoration: underline;
+    color: #FC7071;
+    font-family: var(--font-main);
+    font-size: 12px;
+}
+
 .button-register {
     width: 148px;
     height: 40px;
@@ -74,4 +81,7 @@
     border: none;
     border-radius: 6px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

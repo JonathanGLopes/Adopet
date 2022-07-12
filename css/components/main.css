@@ -40,10 +40,11 @@
     font-family: var(--font-main);
     font-weight: 600;
     color: #FFF;
-    padding: 8px 6px;
+    padding: 13px 6px;
     border-radius: 8px;
     box-shadow: 1px 1px 4px rgb(59, 59, 59);
     width: 180px;
+    text-align: center;
 }
 
 .main-img {
