@@ -1,0 +1,22 @@
+@media (min-width: 768px){
+    .container-log2 {
+        background-color: #fff;
+        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png);
+        background-position: left top, right bottom 45%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 35rem, 8rem;
+    }
+
+    .pets-intro {
+        width: 524px;
+    }
+
+    .wrapper-form {
+        width: 524px;
+        margin: 2rem auto 5rem auto;
+    }
+
+    .form-info, .form-message {
+        width: 94%;
+    }
+}

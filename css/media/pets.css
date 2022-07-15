@@ -1,0 +1,26 @@
+@media (min-width: 768px){
+    .container-log {
+        background-color: #fff;
+        background-image: url(/assets/img/img-shape1.svg);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: 35rem;
+    }
+
+    .pets-intro{
+        font-size: 18px;
+        padding: 0;
+        margin-top: 8rem;
+    }
+
+    .main-pets {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 2rem 1rem 2rem;
+        margin-top: 4rem;
+    }
+
+    .card-pet {
+        width: 344px;
+    }
+}

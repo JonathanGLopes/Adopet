@@ -1,0 +1,44 @@
+@media (min-width: 768px){
+    .container-form {
+        background-color: #fff;
+        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png);
+        background-position: left top, right bottom 50%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 35rem, 8rem;
+    }
+
+    .form {
+        margin-top: 2rem;
+    }
+
+    .form-logo {
+        width: 251px;
+    }
+
+    .wrap-register-span {
+        width: 525px;
+    }
+
+    .register-span1, .register-span2 {
+        text-align: center;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .form-label {
+        font-size: 18px;
+    }
+
+    .form-input {
+        width: 344px;
+    }
+
+    .form-input::placeholder {
+        font-size: 14px;
+    }
+
+    .button-register {
+        width: 164px;
+        margin-top: 1rem;
+    }
+}

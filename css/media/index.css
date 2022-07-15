@@ -1,0 +1,40 @@
+@media (min-width: 768px){
+    .container {
+        background-color: var(--bg-blue);
+        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png), url(/assets/img/img-main.svg);
+        background-position: left top, right bottom 50%, bottom 3rem center;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 35rem, 7rem, 20rem;
+    }
+
+    .wrap-main {
+        height: 80vh;
+        margin-top: 5rem;
+    }
+
+    .logo-adopet {
+        display: block;
+        width: 128px;
+    }
+
+    .main-logo {
+        width: 251px;
+    }
+
+    .main-msg {
+        font-size: 28px;
+        width: 233px;
+        text-align: center;
+    }
+
+    .main-span {
+        width: 344px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .main-button-login, .main-button-signup {
+        width: 344px;
+        font-size: 18px;
+    }
+}
