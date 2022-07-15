@@ -19,7 +19,7 @@
 }
 
 .form-info {
-    width: 100%;
+    width: 90%;
     padding: 12px 1rem;
     border: none;
     border-radius: 6px;
@@ -28,7 +28,7 @@
 }
 
 .form-message {
-    width: 100%;
+    width: 90%;
     height: 172px;
     padding: 1rem;
     margin-bottom: 2rem;
