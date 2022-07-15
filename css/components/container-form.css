@@ -1,7 +1,7 @@
 .container-form {
     background-color: #fff;
     background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape2.svg);
-    background-position: left top, left bottom 20%;
+    background-position: left top, left bottom 25%;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -11,4 +11,10 @@
     right: 0px;
     width: 189px;
     height: 243px;
+}
+
+.form-logo {
+    width: 142px;
+    align-self: center;
+    margin-bottom: 1.5rem;
 }

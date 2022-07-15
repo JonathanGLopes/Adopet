@@ -1,8 +1,8 @@
 .container {
     background-color: var(--bg-blue);
-    background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png);
-    background-position: left top, right bottom 50%;
-    background-repeat: no-repeat, no-repeat;
+    background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png), url(/assets/img/img-main.svg);
+    background-position: left top, right bottom 50%, bottom 4rem right 5rem;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .main-header {
@@ -13,4 +13,8 @@
     display: flex;
     align-items: center;
     gap: 3.6rem;
+}
+
+.logo-adopet {
+    display: none;
 }

@@ -10,6 +10,14 @@
 @import url(components/message.css);
 @import url(components/profile.css);
 
+/* media css */
+@import url(media/index.css);
+@import url(media/register.css);
+@import url(media/login.css);
+@import url(media/pets.css);
+@import url(media/message.css);
+@import url(media/profile.css);
+
 :root {
   --bg-blue: #3772FF;
   --bg-green: #36D6AD;

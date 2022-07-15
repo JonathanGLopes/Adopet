@@ -50,4 +50,5 @@
 .main-img {
     width: 247px;
     margin-right: 3rem;
+    visibility: hidden;
 }
