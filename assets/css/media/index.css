@@ -38,3 +38,23 @@
         font-size: 18px;
     }
 }
+
+@media (min-width: 1440px){
+    .main-logo{
+        width: 260px;
+    }
+
+    .nav-icon:hover{
+        transform: translateY(1px);
+    }
+
+    .main-span {
+        width: 488px;
+    }
+
+    .main-button-login:hover, .main-button-signup:hover {
+        background-color: var(--button-hover);
+        transition: ease 400ms;
+        transform: translateY(1px);
+    }
+}
