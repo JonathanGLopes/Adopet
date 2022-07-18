@@ -42,3 +42,14 @@
         margin-top: 1rem;
     }
 }
+
+@media (min-width: 1440px){
+    .form-input{
+        width: 362px;
+    }
+
+    .button-register:hover{
+        background-color: var(--button-hover);
+        transition: 300ms;
+    }
+}

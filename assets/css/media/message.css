@@ -1,10 +1,14 @@
 @media (min-width: 768px){
     .container-log2 {
         background-color: #fff;
-        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape3.png);
+        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape-right.svg);
         background-position: left top, right bottom 45%;
         background-repeat: no-repeat, no-repeat;
         background-size: 35rem, 8rem;
+    }
+
+    .icon-profile{
+        width: 56px;
     }
 
     .pets-intro {

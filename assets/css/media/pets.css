@@ -24,3 +24,30 @@
         width: 344px;
     }
 }
+
+@media (min-width: 1440px){
+
+    .container-log {
+        background-color: #fff;
+        background-image: url(/assets/img/img-shape1.svg), url(/assets/img/img-shape-right.svg);
+        background-position: left top, bottom 10rem right 0;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 560px, 134px;
+    }
+
+    .icon-profile:hover{
+        transform: translateY(2px);
+    }
+
+    .card-pet{
+        width: 363px;
+    }
+    
+    .main-pets {
+        display: grid;
+        grid-template-columns: repeat(3, 23rem);
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3.75rem;
+    }
+}
