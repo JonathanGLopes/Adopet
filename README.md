@@ -8,5 +8,16 @@
  - Tecnologias utilizadas: HMTL e CSS
  
  ## Tela inicial
-<img src="https://user-images.githubusercontent.com/93101033/186298254-a2bfddd4-7e95-4130-a447-9532e97a345c.jpg">
-- Status do projeto: Em andamento
+<img width="500" src="assets/img/readme1.png"> <br>
+
+### Login
+<img width="500" src="assets/img/readme2.png"> <br>
+
+### Cadastro
+<img width="500" src="assets/img/readme3.png"> <br>
+
+### Adoção
+<img width="500" src="assets/img/readme4.png"> <br>
+
+### Perfil
+<img width="500" src="assets/img/readme5.png"> <br>
