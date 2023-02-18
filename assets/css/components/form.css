@@ -46,7 +46,7 @@
     color: var(--font-dark-gray);
 }
 
-.form-input {
+.form-input, .form-input-email, .form-input-senha {
     padding: 7px;
     text-align: center;
     border: none;
@@ -57,7 +57,7 @@
     box-shadow: 0 3px 6px -6px black;
 }
 
-.form-input::placeholder{
+.form-input::placeholder, .form-input-email::placeholder, .form-input-senha::placeholder{
     color: var(--font-light-gray);
     font-size: 12px;
     font-family: var(--font-main);
