@@ -15,6 +15,7 @@ function validaCampos(){
 
     if($inputEmail === '' && $inputSenha === ''){
         $textoModalErro.textContent = "Preencha os campos.";
+        document.querySelector(".form-input-email").focus();
         showModal();
     } else {
         validaEmail();
@@ -45,6 +46,7 @@ function validaSenha(){
     }
     else if($inputSenha.length < 8){
         $textoModalSenha.textContent = "Senha inválida!";
+        $form.reset();
         showModal();
     } else {
         window.location.href = "/assets/pages/pets.html";
