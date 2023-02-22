@@ -24,7 +24,7 @@ function validaCampos(){
 }
 
 
-function validaEmail(email){
+function validaEmail(){
     const $inputEmail = document.querySelector(".form-input-email").value;
     const $textoModalEmail = document.querySelector(".modal-content-input");
 
