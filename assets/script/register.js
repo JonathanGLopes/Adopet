@@ -4,19 +4,33 @@ $form.addEventListener("submit", (e) => {
     e.preventDefault();
     
     validaEmail();
-    showModal();
+    validaNome();
+    // showModal();
 });
 
 function validaEmail(){
-    const $inputEmail = document.querySelector(".form-input").value;
+    const $inputEmail = document.querySelector(".form-input-email").value;
     const $textoModalEmail = document.querySelector(".modal-content-input");
 
-    if($inputEmail.length < 15){
-        $textoModalEmail.textContent = "Email inválido.";
-        document.querySelector(".form-input").focus();
+    if($inputEmail === ''){
+        $textoModalEmail.textContent = "Por favor, preencha o email";
+        document.querySelector(".form-input-email").focus();
         showModal();
     }
 
+}
+
+function validaNome(){
+    const $inputNome = document.querySelector(".form-input-nome").value;
+    const $textoModalNome = document.querySelector(".modal-content-input");
+
+    if($inputNome === ''){
+        $textoModalNome.textContent = "Por favor, preencha o nome";
+        showModal();
+    } else if($inputNome.length < 3){
+        $textoModalNome.textContent = "Nome inválido!";
+        showModal();
+    }
 }
 
 
