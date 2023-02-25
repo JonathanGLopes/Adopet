@@ -3,9 +3,10 @@ const $form = document.querySelector(".form");
 $form.addEventListener("submit", (e) => {
     e.preventDefault();
     
+    validaSenha();
     validaEmail();
     validaNome();
-    // showModal();
+    showModal();
 });
 
 function validaEmail(){
@@ -30,6 +31,23 @@ function validaNome(){
     } else if($inputNome.length < 3){
         $textoModalNome.textContent = "Nome inválido!";
         showModal();
+    }
+}
+
+function validaSenha(){
+    const $inputSenha = document.querySelector(".form-input-senha").value;
+    const $inputSenha2 = document.querySelector(".form-input-senha2").value;
+    const $textoModalSenha = document.querySelector(".modal-content-input");
+
+    if($inputSenha === '' || $inputSenha2 === ''){
+        $textoModalSenha.textContent = "Preencha a senha para continuar.";
+        showModal();
+    } else if($inputSenha !== $inputSenha2){
+        $textoModalSenha.textContent = "As senhas são diferentes";
+        showModal();
+        return;
+    } else {
+        window.location.href = "/assets/pages/pets.html";
     }
 }
 
