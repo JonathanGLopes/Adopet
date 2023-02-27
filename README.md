@@ -16,6 +16,9 @@
 ### Cadastro
 <img width="500" src="assets/img/readme3.png"> <br>
 
+### Modal de erro
+<img width="500" src="assets/img/readme6.png"> <br>
+
 ### Adoção
 <img width="500" src="assets/img/readme4.png"> <br>
 
